@@ -41,6 +41,10 @@
   gap: 32px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .p-20 {
   padding: 20px
 }
@@ -98,3 +102,5 @@
 .tx-center {
   text-align: center;
 }
+
+
