@@ -1,71 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise Beginner</title>
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercise Beginner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
     <div class="container bg-eee">
-      <div class="d-flex justify-content-between align-items-center">
-        <span class="font-700">Personal</span>
-
-        <ul class="d-flex list-menu gap-32 font-700">
-          <li>
-            <a href="#about-me" class="text-decoration-none color-black">About Me</a>
-          </li>
-          <li>
-            <a href="#skills" class="text-decoration-none color-black">Skills</a>
-          </li>
-          <li>
-            <a href="#project" class="text-decoration-none color-black">Project</a>
-          </li>
-          <li>
-            <a href="#contact-me" class="text-decoration-none color-black">Contact Me</a>
-          </li>
-        </ul>
-
-        <div class='p-20 font-700 bg-black color-white border-radius-4 cursor-pointer'>
-          Resume <i class="fa-solid fa-download"></i>
+        <div class="d-flex justify-content-between align-items-center">
+            <span class="font-700">Personal</span>
+            <ul class="d-flex list-menu gap-32 font-700">
+            <li>
+                <a href="#about-me" class="text-decoration-none color-black">About Me</a>
+            </li>
+            <li>
+                <a href="#skills" class="text-decoration-none color-black">Skills</a>
+            </li>
+            <li>
+                <a href="#project" class="text-decoration-none color-black">Project</a>
+            </li>
+            <li>
+                <a href="#contact-me" class="text-decoration-none color-black">Contact Me</a>
+            </li>
+            </ul>
+            <div class="p-20 font-700 bg-black color-white border-radius-4 cursor-pointer">
+            Resume <i class="fa-solid fa-download"></i>
+            </div>
         </div>
+    </div>
+
+  <div class="container d-flex align-items-center justify-content-between">
+    <div>
+      <h3>Name: Arrasy Sumitra</h3>
+      <h3>Class: 4A</h3>
+      <h3>Hobby: Tidur</h3>
+    </div>
+    <div>
+      <img src="./image/person1.png" alt="Person" class="h-500" />
+    </div>
+  </div>
+
+  <div class="container tx-center bg-eee h-500 d-flex justify-content-center align-items-center">
+    <div>
+      <h2 class="font-700">Welcome to my website</h2>
+      <div>
+        Website ini hasil belajar dari arrasy jadi masih sederhana tapi kedepannya akan jadi website yang super bagus
+        tolong di support ya;)
+      </div>
+      <div class="mt-16">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EDpwP3fEJ24?si=jxF1Tw4khpCFrY7C&rel=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
     </div>
-    
-    <div class="container d-flex align-items-center justify-content-between">
-      <div>
-        <h3>Name: Arrasy Sumitra</h3>
-        <h3>Class: 4A</h3>
-        <h3>Hobby: Tidur</h3>
-      </div>
-      <div>
-        <img src=" ./image//person1.png" alt="Person" class='h-500'>
+  </div>
+
+  <div class="container tx-center h-500 d-flex justify-content-center align-items-center">
+    <div>
+      <h2 class="font-700">About Arrasy</h2>
+      <div>Arrasy Masih Sekolah di Insan Robani</div>
+      <div class="mt-16">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n2Vxbq6JZCM?si=6JHHR2IpT8X-9w1A&rel=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
       </div>
     </div>
-    
-    <div class="container tx-center bg-eee h-500 d-flex justify-content-center align-items-center">
-      <div>
-        <h2 class="font-700">Welcome to my website</h2>
-      <div>
-        Website ini hasil belajar dari arrasy jadi masih sederhana tapi kedepannya akan jadi website yang super bagus tolong di support ya;)
+  </div>
+
+  <div class="container bg-eee h-500 d-flex justify-content-center align-items-center">
+    <div>
+      <h2 class="font-700 tx-center">Contact Me</h2>
+      <div class="tx-center">
+        Kalian bisa mengisi form dibawah ini ya!
       </div>
       <div class='mt-16'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EDpwP3fEJ24?si=jxF1Tw4khpCFrY7C&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-      </div>
-      </div>
-      </div>
-      
-      <div class="container tx-center h-500 d-flex justify-content-center align-items-center">
-        <div>
-          <h2 class="font-700">About Arrasy</h2>
-          <div>
-            Arrasy Masih Sekolah di Insan Robani
+        <form>
+          <div class='d-flex flex-column max-w-150 mb-16'>
+            <label for="name" class="mb-6">Name</label>
+            <input type="text" id="name" name="name" />
           </div>
-          <div class='mt-16'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/n2Vxbq6JZCM?si=6JHHR2IpT8X-9w1A&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <div class='d-flex flex-column max-w-150 mb-16'>
+            <label for="class" class="mb-6">Class</label>
+            <input type="text" id="class" name="class" />
           </div>
-        </div>
+          <button type='submit' class='p-10'>Submit</button>
+        </form>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

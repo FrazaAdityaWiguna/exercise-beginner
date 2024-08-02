@@ -45,6 +45,18 @@
   margin-top: 16px;
 }
 
+.mb-6 {
+  margin-bottom: 6px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.p-10 {
+  padding: 10px
+}
+
 .p-20 {
   padding: 20px
 }
@@ -89,6 +101,10 @@
 
 .w-full {
   width: 100%;
+}
+
+.max-w-150 {
+  width: 150px;
 }
 
 .h-500 {
